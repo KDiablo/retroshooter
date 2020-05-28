@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1588223643671702}
+  m_IsPrefabAsset: 1
+--- !u!1 &1588223643671702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4660667434105858}
+  - component: {fileID: 114139009528247946}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: SpawnManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4660667434105858
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1588223643671702}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.92461896, y: -2.7287295, z: -4.450304}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114139009528247946
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1588223643671702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfb116a90cdc3664a834d88b2cbde5c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _planets:
+  - {fileID: 1062904609433906, guid: 941e28e2fdb7e7c4d8f52ceb1400435b, type: 2}
+  - {fileID: 1319577635771952, guid: fb6a12c856e8e794783f7a374080bc29, type: 2}
+  - {fileID: 1854064456779736, guid: 7fa7e34d5365c6e4eb6eec9aafcead0d, type: 2}
+  - {fileID: 1653811463061020, guid: 35bf4c1a65118684280a92096464b87b, type: 2}
+  - {fileID: 1789150010487752, guid: 0e98f87144808b247aa7acc4681909ba, type: 2}
+  - {fileID: 1045761468384676, guid: 434f759cac2f8244cbc63bb6cd62cfca, type: 2}
+  - {fileID: 1609873791466272, guid: d4766b81cfb3c354f91c195292c43bb2, type: 2}
+  - {fileID: 1416960663988614, guid: 405107baff8d17a49ad319218ccc4f2f, type: 2}
+  - {fileID: 1517324369689896, guid: 353eae9014a18864aa84526bb84b2bfb, type: 2}
+  - {fileID: 1298889541257886, guid: 375394a9890f9b0458181adbf3151004, type: 2}
+  - {fileID: 1368376261442688, guid: e8b882fa7fd451f43a2200f74469c62d, type: 2}
+  _sceneryShips:
+  - {fileID: 1467044036124256, guid: a5ac6cdea77285347862678d8dbb9480, type: 2}
+  - {fileID: 1847021357270476, guid: d1c5757444e002544b356509ce7fcaeb, type: 2}
+  - {fileID: 1100307025116746, guid: ad4dc8b193092824c820a8c223f818b4, type: 2}
+  - {fileID: 1015654825277972, guid: 20c67ef9ff668204695e6650e7fbbd13, type: 2}
+  - {fileID: 1408459646079472, guid: 5173ae301e0f0ce46b26159749e37848, type: 2}
+  - {fileID: 1191658080652616, guid: f6ffed9f653ee8f478ba78052720d480, type: 2}
+  _asteroids:
+  - {fileID: 1219435951274662, guid: 14b9d57904feaeb438752147317f02b9, type: 2}
+  - {fileID: 1291143364542116, guid: cd1ae588e50f9344093aba95072407d1, type: 2}
+  _berserker: {fileID: 1261718585470296, guid: 679d1f239a3acc7478f7a254e21ca6d5, type: 2}
+  _berserkerLeft: {fileID: 1393814973392366, guid: 93d4f0d064819024c8504b16c9e5983a,
+    type: 2}
+  _littleShooter: {fileID: 1633862030852472, guid: c722257907e1fdc4e9c6ec681ac6cb7d,
+    type: 2}
+  _bomber: {fileID: 1663770741027746, guid: a9f2e42b93c37884d80094c18660f2f1, type: 2}
+  _boss1: {fileID: 1399911360775048, guid: e307f91209cbf9d408b57441eb7e7e05, type: 2}
+  _powerups:
+  - {fileID: 1062455107230024, guid: 0a51839c1c05c42499e995e71e18b349, type: 2}
+  - {fileID: 1938668646147580, guid: d985f11bd8f52f848a1d5f27499712eb, type: 2}
+  _isPlayerDead: 0
+  _enemiesDestroyed: 0
